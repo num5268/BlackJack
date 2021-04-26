@@ -69,7 +69,6 @@ public class BlackJack06 {
 				deckIndex++;
 				p1Index++;
 			}
-			this.getd1Deck();
 		}
 			
 		}
@@ -84,7 +83,6 @@ public class BlackJack06 {
 			deckIndex++;
 			d1Index++;
 		}
-		this.gameDisplay();
 	}
 	public int getSum(int[] deck, int index) { // 점수 구하기 메소드
 		int sum = 0;
